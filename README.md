@@ -1,5 +1,9 @@
-# USELF_WEBSITE
-- This Repository is dedicated to hold our USELF Website Finals project
+# URSELF_WEBSITE
+- This Repository is dedicated to hold our `URSELF` Website Finals project.
+
+## What is the Purpose?
+-  The Purpose of this project is to showcase our `Frontend` and `Backend` Skills along side the `Research` Skills in this project.
+-  The other purpose is to alarm and show the internet that the world won't last forever.
 
 ### Contributors
 
