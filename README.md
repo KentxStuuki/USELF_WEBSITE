@@ -7,7 +7,11 @@
 -  The Purpose of this project is to showcase our `Frontend` and `Backend` Skills along side the `Research` Skills in this project.
 -  The other purpose is to alarm and show the internet that the world won't last forever.
 
-## References: 
+## UI/UX Initial Design
+
+- [USELF PROTOTYPE](https://www.figma.com/design/EUCVuBWPI0czddDw8pht9V/USELF-PROTOTYPE?node-id=1-2&t=0MGMI6ks3ZWmsO5k-0)
+
+### References: 
 
 - Website Structure [Arknights](https://www.arknights.global/)
 
