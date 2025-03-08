@@ -1,9 +1,29 @@
 # URSELF_WEBSITE
+
 - This Repository is dedicated to hold our `URSELF` Website Finals project.
 
 ## What is the Purpose?
+
 -  The Purpose of this project is to showcase our `Frontend` and `Backend` Skills along side the `Research` Skills in this project.
 -  The other purpose is to alarm and show the internet that the world won't last forever.
+
+## References: 
+
+- Website Structure [Arknights](https://www.arknights.global/)
+
+### 2030 UN Climate Change Deadline 
+- [Unified Film Makers](https://www.unifiedfilmmakers.com/medialibrary/what-will-happen-if-we-fail-to-meet-the-2030-climate-change-deadline/)
+
+- [unfccc.int](https://unfccc.int/process-and-meetings/)
+
+- [commonwealthclub.org](https://www.commonwealthclub.org/events/2020-02-24/)
+
+### Climate Psychology 
+- [climatepsychologyalliance.org](https://www.climatepsychologyalliance.org/index.php/component/content/article/what-is-climate-psychology?catid=12&Itemid=101)
+
+- [open.edu](https://www.open.edu/openlearn/health-sports-psychology/)
+
+
 
 ### Contributors
 
