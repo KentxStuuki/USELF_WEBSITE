@@ -2,9 +2,15 @@
 :root{
     /* Color */
     --primar-color: #1A1C1E;
-    --secondary-color: #9E3B1C;
+    --secondary-color: #cb4c26;
 
     --primary-font-color: #BBB8B8;
+
+    --cont-color:linear-gradient(to top, rgba(16, 19, 26, 0.452), rgba(0, 0, 0, 0.633)) ;
+
+    /* Font Family */
+    --title-font-family: ;
+    --body-font-family: ;
 
     /* Font Sizes */
     --big-icon-size: 10rem;
@@ -14,15 +20,28 @@
     --default-font-size: 4.1rem;
 
     --biggest-font-size: 4rem;
-    --bigger-font-size: 3.5rem;
+    --bigger-font-size: 3.1rem;
     --big-font-size: 2.5rem;
-    --medium-font-size: 1.5rem;
-    --normal-font-size: 1rem;
+    --medium-font-size: 1.3rem;
     --small-font-size: 0.8rem;
 
     /* Font Weight */
     --font-mid-bold: 700;
     --font-max-bold: 900;
+
+    /* Paddings & Margins */
+    --big-spacer-tb: 9% 0;
+    --mid-spacer-tb: 5% 0;
+    --small-spacer-tb: 2% 0;
+
+    --big-spacer-lr: 0 10%;
+    --mid-spacer-lr: 0 5% ;
+    --small-spacer-lr: 0 2%;
+
+    ---big-tb-center-spacer: 10% auto;
+    ---mid-tb-center-spacer: 5% auto;
+    ---small-tb-center-spacer: 2% auto;
+    --no-tb-center-spacer: 0 auto;
 
 }
 
@@ -34,4 +53,8 @@
 body{
     background-color: var(--primar-color);
     color: var(--primary-font-color);
+}
+
+.highlight{
+    color: var(--secondary-color);
 }

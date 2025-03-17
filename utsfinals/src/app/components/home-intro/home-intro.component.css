@@ -1,0 +1,38 @@
+.home-introduction{
+    background-image:var(--cont-color), url(../../../../public/assets/Home_img.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: var(--default-font-color);
+    height: 100vh;
+}
+
+.home-intro-container{
+    padding: var(--big-spacer-tb);
+    width: 95%;
+    margin: var(--no-tb-center-spacer);
+}
+
+.home-header{
+    font-size: var(--big-font-size);
+}
+
+.home-intro-container h2{
+    font-size: var(--big-font-size);
+    font-weight: var(--font-max-bold);
+}
+
+.home-intro-container h1{
+    font-size: var(--bigger-font-size);
+    font-weight: var(--font-max-bold);
+}
+
+.year-container{
+    text-align: right;
+    width: 80%;
+    margin: var(--no-tb-center-spacer);
+}
+
+.year-container h2{
+    font-size: var(--bigger-font-size);
+}

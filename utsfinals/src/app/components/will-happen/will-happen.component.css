@@ -1,0 +1,22 @@
+.will-happen-section{
+    width: 90%;
+    margin: var(---mid-tb-center-spacer);
+}
+
+.will-happen-section p{
+    font-size: var(--medium-font-size);
+    line-height: 1.5;
+}
+
+.will-happen-container{
+    display: flex;
+    gap: 5%;
+    margin: var(--small-spacer-tb);
+}
+
+.will-happen-container h2{
+    width: 100%;
+    font-size: var(--big-font-size);
+}
+
+

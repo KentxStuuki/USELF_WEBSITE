@@ -1,15 +1,16 @@
-.explanation-section{
-    width: 90%;
-    margin: 0 auto;
+.change-main-container{
+    margin: var(--mid-spacer-tb);
 }
 
-.highlight{
-    color: var(--secondary-color);
+.explanation-section{
+    width: 90%;
+    margin: var(---small-tb-center-spacer);
 }
 
 .change-container, .climate-container{
     display: flex;
     gap: 5%;
+    margin: var(--small-spacer-tb);
 }
 
 
@@ -19,7 +20,12 @@
 }
 
 .change-container p, .climate-container p, p{
-    font-size: var(--normal-font-size);
+    font-size: var(--medium-font-size);
+    line-height: 1.5;
+}
+
+.image-container img{
+    width: 100%;
 }
 
 
