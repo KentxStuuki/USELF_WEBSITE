@@ -1,3 +1,27 @@
+.container {
+    margin: 0 10%;
+}
 .todo-container {
     display: flex;
+    margin: 3% auto;
+    align-items: center;
+}
+.red-text {
+    color: brown;
+}
+.header {
+    width: 100%;
+}
+.desc {
+    margin: 0 1%;
+}
+.header h5, h4{
+    font-size: 2rem;
+}
+h4.head {
+    text-align: right;
+    margin-left: auto;
+}
+.header hr {
+    margin-top: 1%;
 }
