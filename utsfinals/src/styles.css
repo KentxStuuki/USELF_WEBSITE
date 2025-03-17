@@ -54,7 +54,3 @@ body{
     background-color: var(--primar-color);
     color: var(--primary-font-color);
 }
-
-.highlight{
-    color: var(--secondary-color);
-}

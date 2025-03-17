@@ -1,0 +1,16 @@
+.container {
+    margin: 0 10%;
+}
+.future-img {
+    display: flex;
+}
+.img {
+    width: 500px; /*remove*/
+    height: 600px; /*remove*/
+    background-color: #fff; /*remove*/
+    margin: 2% 3%;
+}
+h4 {
+    font-size: 2rem;
+    margin-left: auto;
+}
