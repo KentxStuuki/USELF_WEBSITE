@@ -1,0 +1,25 @@
+.explanation-section{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.highlight{
+    color: var(--secondary-color);
+}
+
+.change-container, .climate-container{
+    display: flex;
+    gap: 5%;
+}
+
+
+.change-container h2, .climate-container h2{
+    width: 100%;
+    font-size: var(--bigger-font-size);
+}
+
+.change-container p, .climate-container p, p{
+    font-size: var(--normal-font-size);
+}
+
+
