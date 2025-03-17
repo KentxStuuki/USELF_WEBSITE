@@ -14,6 +14,9 @@ h4 {
     font-size: 2rem;
     margin-left: auto;
 }
+.layer1{
+    background-color: green !important; 
+}
 .layer {
     margin: 0 auto;
     padding: 2% 0;
@@ -24,7 +27,7 @@ h4 {
     align-items: center;
     width: 10px;
     height: fit-content;
-    background-color: brown;
+    background-color: #cb4c26;
     color: --primary-font-color;
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
@@ -33,6 +36,9 @@ h4 {
       transition: all 0.9s ease;
       transform: scale(0.1);
     }
+  }
+  .layer h5 {
+    font-size: 1.5rem;
   }
 .img:hover .layer {
     width: 35%;
