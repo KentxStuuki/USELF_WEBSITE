@@ -35,3 +35,6 @@ body{
     background-color: var(--primar-color);
     color: var(--primary-font-color);
 }
+.red-text {
+    color: var(--secondary-color);
+}
