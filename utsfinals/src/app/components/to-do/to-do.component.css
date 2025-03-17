@@ -23,3 +23,7 @@ h4.head {
 p {
     font-size: 1.2rem;
 }
+img {
+    width: 100%;
+    margin-bottom: 3%;
+}

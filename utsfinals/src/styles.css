@@ -54,7 +54,11 @@ body{
     background-color: var(--primar-color);
     color: var(--primary-font-color);
 }
+<<<<<<< HEAD
 
 .highlight{
+=======
+.red-text {
+>>>>>>> 9bd26d88ff9636815a6fafa00d1742cf68163c8e
     color: var(--secondary-color);
 }
