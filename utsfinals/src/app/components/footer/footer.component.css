@@ -19,3 +19,10 @@
 footer{
     text-align: center;
 }
+
+/* Apply */
+.footer-section {
+    animation: appearUp 2s ease-in-out;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}

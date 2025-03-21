@@ -36,3 +36,109 @@
 .year-container h2{
     font-size: var(--bigger-font-size);
 }
+
+/* Animation */
+/* You can add global styles to this file, and also import other style files */
+:root{
+    /* Color */
+    --primar-color: #1A1C1E;
+    --secondary-color: #cb4c26;
+
+    --primary-font-color: #BBB8B8;
+
+    --cont-color:linear-gradient(to top, rgba(16, 19, 26, 0.452), rgba(0, 0, 0, 0.633)) ;
+
+    /* Font Family */
+    --title-font-family: ;
+    --body-font-family: ;
+
+    /* Font Sizes */
+    --big-icon-size: 10rem;
+    --mid-icon-size: 5rem;
+    --small-icon-size: 2rem;
+
+    --default-font-size: 4.1rem;
+
+    --biggest-font-size: 4rem;
+    --bigger-font-size: 3.1rem;
+    --big-font-size: 2.5rem;
+    --medium-font-size: 1.3rem;
+    --small-font-size: 0.8rem;
+
+    /* Font Weight */
+    --font-mid-bold: 700;
+    --font-max-bold: 900;
+
+    /* Paddings & Margins */
+    --big-spacer-tb: 9% 0;
+    --mid-spacer-tb: 5% 0;
+    --small-spacer-tb: 2% 0;
+
+    --big-spacer-lr: 0 10%;
+    --mid-spacer-lr: 0 5% ;
+    --small-spacer-lr: 0 2%;
+
+    ---big-tb-center-spacer: 10% auto;
+    ---mid-tb-center-spacer: 5% auto;
+    ---small-tb-center-spacer: 2% auto;
+    --no-tb-center-spacer: 0 auto;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--primar-color);
+    color: var(--primary-font-color);
+}
+
+.highlight, .red-text{
+    color: var(--secondary-color);
+}
+
+/* Animation */
+/* Fade In Animation */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Slide In Animation */
+@keyframes slideInLeft {
+    from { opacity: 0; transform: translateX(-50px); }
+    to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes slideInRight {
+    from { opacity: 0; transform: translateX(50px); }
+    to { opacity: 1; transform: translateX(0); }
+}
+
+/* Zoom In Animation */
+@keyframes zoomIn {
+    from { opacity: 0; transform: scale(0.8); }
+    to { opacity: 1; transform: scale(1); }
+}
+
+/* Sliding Animation */
+@keyframes appear {
+    from {
+        opacity: 0;
+        transform: translateX(-100px)
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0px)
+    }
+}
+
+/* Apply*/
+.home-intro-container h2, h1 {
+    animation: slideInLeft 1s ease-in-out;
+}
+.year-container h1, h2 {
+    animation: slideInRight 1.5s ease-in-out;
+}

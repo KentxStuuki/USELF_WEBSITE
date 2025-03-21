@@ -1,4 +1,4 @@
-.container {
+.container{
     margin: 2% 5%;
 }
 .row {
@@ -29,4 +29,17 @@ p.outro {
 }
 .bold {
     font-weight: bold;
+}
+
+/* Apply */
+.left {
+    animation: appear 1s ease-in-out;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+
+.right {
+    animation: appearRight 1s ease-in-out;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
 }
